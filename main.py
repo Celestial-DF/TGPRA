@@ -5,7 +5,7 @@ print(pygame.ver)
 pygame.init()
 WIDTH = pygame.display.Info().current_w
 HEIGHT = pygame.display.Info().current_h
-BACKGROUND = (0, 0, 0)
+BACKGROUND = (38, 196, 236)
 
 def main():
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
